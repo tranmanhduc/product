@@ -1,0 +1,25 @@
+
+.mt-15 {
+  margin-top: 15px;
+}
+.mb-15 {
+  margin-bottom: 15px;
+}
+.ml-15 {
+  margin-left: 15px;
+}
+.mr-15 {
+  margin-right: 15px;
+}
+.dropdown-menu li.sort_selected {
+  position: relative;
+}
+.dropdown-menu li.sort_selected:before {
+  position: absolute;
+  left: .4rem;
+  content: '✓';
+  font-weight: 600;
+}
+.container {
+  width: 1250px;
+}
